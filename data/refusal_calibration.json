@@ -1,0 +1,58 @@
+[
+  {
+    "question_id": "supported_mercenaries",
+    "question": "Why does Machiavelli call mercenary arms useless and dangerous?",
+    "supported": true,
+    "rationale": "Chapter XII directly explains that mercenary troops are disunited, ambitious, undisciplined, and unfaithful.",
+    "expected_chapters": ["XII", "XIII"]
+  },
+  {
+    "question_id": "supported_hereditary_states",
+    "question": "What does Chapter II say about hereditary principalities and change?",
+    "supported": true,
+    "rationale": "Chapter II says inherited customs and the lack of motives for change help a hereditary prince retain his state.",
+    "expected_chapters": ["II"]
+  },
+  {
+    "question_id": "supported_fear_and_hatred",
+    "question": "What does Machiavelli say a prince must do to avoid hatred from his subjects?",
+    "supported": true,
+    "rationale": "Chapter XVII distinguishes fear from hatred and advises the prince to avoid taking subjects' property and women.",
+    "expected_chapters": ["XVII", "XIX"]
+  },
+  {
+    "question_id": "supported_fortune_river",
+    "question": "How does Machiavelli compare fortune to a violent river?",
+    "supported": true,
+    "rationale": "Chapter XXV compares fortune to a destructive river and discusses preparation and resistance.",
+    "expected_chapters": ["XXV"]
+  },
+  {
+    "question_id": "unsupported_castruccio_biography",
+    "question": "What were the names of Castruccio Castracani's parents, and how was he raised?",
+    "supported": false,
+    "rationale": "This asks for details from the excluded Castruccio Castracani appendix; the book corpus ends after Chapter XXVI.",
+    "expected_chapters": []
+  },
+  {
+    "question_id": "unsupported_valentino_appendix",
+    "question": "What methods and named victims are described in the excluded account of Duke Valentino's killings?",
+    "supported": false,
+    "rationale": "This asks for detailed content from the excluded post-Chapter-XXVI Duke Valentino appendix, beyond the main text's discussion of his rule.",
+    "expected_chapters": []
+  },
+  {
+    "question_id": "unsupported_translator_introduction",
+    "question": "What biographical evidence does Marriott's translator introduction give about Machiavelli's years in exile?",
+    "supported": false,
+    "rationale": "This concerns the excluded Marriott introduction rather than the dedication or Chapters I-XXVI.",
+    "expected_chapters": []
+  },
+  {
+    "question_id": "unsupported_historical_dates",
+    "question": "What exact birth and death dates does the excluded appendix provide for Castruccio Castracani?",
+    "supported": false,
+    "rationale": "The requested exact biographical dates are in the excluded appendix and are not evidence in the selected corpus.",
+    "expected_chapters": []
+  }
+]

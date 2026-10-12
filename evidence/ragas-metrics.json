@@ -1,0 +1,209 @@
+{
+  "generated_at_utc": "2026-10-12T17:00:38+00:00",
+  "ragas_version": "0.4.3",
+  "generation_model": "gemini-3.1-flash-lite",
+  "evaluator_model": "gemini-3.1-flash-lite",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dataset": "data/ragas_eval.json",
+  "dataset_sha256": "1388c2e744031e448c0737f5bab1c64967e36372816397b60e9e1e35a11efaa3",
+  "candidate_n": 20,
+  "top_k": 4,
+  "scored_case_count": 4,
+  "not_scored_case_count": 0,
+  "mean_scores": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7718078606958729,
+    "context_precision": 0.874999999925,
+    "context_recall": 1.0
+  },
+  "results": [
+    {
+      "case_id": "mercenary_arms",
+      "question": "Why does Machiavelli call mercenary arms useless and dangerous?",
+      "reference": "Machiavelli calls mercenary troops dangerous because they are disunited, ambitious, undisciplined, and unfaithful. They have little reason to risk themselves for a ruler, so a prince who relies on them cannot count on dependable protection.",
+      "response": "Mercenary soldiers are considered useless and dangerous because they lack discipline, are unfaithful, and are prone to ambition. [prince-chapter-xii-chunk-1] Mercenaries act with cowardice when facing enemies and behave in a disunited manner, leaving a prince insecure and vulnerable to being robbed by them during times of peace. [prince-chapter-xii-chunk-1] Because mercenaries are not a unified community and are paid directly by the prince, they require more time and opportunity to successfully turn against their employer compared to other forces. [prince-chapter-xiii-chunk-2]",
+      "citations": [
+        "prince-chapter-xii-chunk-1",
+        "prince-chapter-xii-chunk-1",
+        "prince-chapter-xiii-chunk-2"
+      ],
+      "refused": false,
+      "generation_error": null,
+      "retrieved_contexts": [
+        {
+          "chunk_id": "prince-chapter-xiii-chunk-3",
+          "vector_score": 0.5498128533363342,
+          "rerank_score": 0.9976909160614014,
+          "text": "and a third party, which you have made their head, is not able all at once to assume enough authority to injure you. In conclusion, in mercenaries dastardy is most dangerous; in auxiliaries, valour. The wise prince, therefore, has always avoided these arms and turned to his own; and has been willing rather to lose with them than to conquer with the others, not deeming that a real victory which is gained with the arms of others. I shall never hesitate to cite Cesare Borgia and his actions. This duke entered the Romagna with auxiliaries, taking there only French soldiers, and with them he captured Imola and Forli; but afterwards, such forces not appearing to him reliable, he turned to mercenaries, discerning less danger in them, and enlisted the Orsini and Vitelli; whom presently, on"
+        },
+        {
+          "chunk_id": "prince-chapter-xii-chunk-1",
+          "vector_score": 0.5657994747161865,
+          "rerank_score": 0.9328466057777405,
+          "text": "and good arms; and as there cannot be good laws where the state is not well armed, it follows that where they are well armed they have good laws. I shall leave the laws out of the discussion and shall speak of the arms. I say, therefore, that the arms with which a prince defends his state are either his own, or they are mercenaries, auxiliaries, or mixed. Mercenaries and auxiliaries are useless and dangerous; and if one holds his state based on these arms, he will stand neither firm nor safe; for they are disunited, ambitious, and without discipline, unfaithful, valiant before friends, cowardly before enemies; they have neither the fear of God nor fidelity to men, and destruction is deferred only so long as the attack is; for in peace one is robbed by them, and in war by the enemy. The"
+        },
+        {
+          "chunk_id": "prince-chapter-xiii-chunk-0",
+          "vector_score": 0.5130537152290344,
+          "rerank_score": 0.7808758020401001,
+          "text": "CONCERNING AUXILIARIES, MIXED SOLDIERY, AND ONE’S OWN Auxiliaries, which are the other useless arm, are employed when a prince is called in with his forces to aid and defend, as was done by Pope Julius in the most recent times; for he, having, in the enterprise against Ferrara, had poor proof of his mercenaries, turned to auxiliaries, and stipulated with Ferdinand, King of Spain, for his assistance with men and arms. These arms may be useful and good in themselves, but for him who calls them in they are always disadvantageous; for losing, one is undone, and winning, one is their captive. And although ancient histories may be full of examples, I do not wish to leave this recent one of Pope Julius the Second, the peril of which cannot fail to be perceived; for he, wishing to get Ferrara,"
+        },
+        {
+          "chunk_id": "prince-chapter-xiii-chunk-2",
+          "vector_score": 0.5461178421974182,
+          "rerank_score": 0.5574401021003723,
+          "text": "whereby they ran more danger than at any other time of their troubles. The Emperor of Constantinople, to oppose his neighbours, sent ten thousand Turks into Greece, who, on the war being finished, were not willing to quit; this was the beginning of the servitude of Greece to the infidels. Therefore, let him who has no desire to conquer make use of these arms, for they are much more hazardous than mercenaries, because with them the ruin is ready made; they are all united, all yield obedience to others; but with mercenaries, when they have conquered, more time and better opportunities are needed to injure you; they are not all of one community, they are found and paid by you, and a third party, which you have made their head, is not able all at once to assume enough authority to injure you."
+        }
+      ],
+      "evaluation_status": "scored",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6999961124057664,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "case_id": "hereditary_principalities",
+      "question": "What does Chapter II say about hereditary principalities and change?",
+      "reference": "Hereditary principalities are easier to hold than new ones because people are accustomed to the ruling family. A hereditary prince can usually preserve the state by following ancestral customs and adapting prudently to circumstances; the established rule gives people fewer reasons to seek change.",
+      "response": "Hereditary principalities that have been long accustomed to a ruling family are easier to maintain than new ones. [prince-chapter-ii-chunk-0] A prince of average ability can maintain his hereditary state by following ancestral customs and handling current events prudently. [prince-chapter-ii-chunk-0] A hereditary prince is likely to retain power unless an extraordinary and excessive force deprives him of it. [prince-chapter-ii-chunk-0]",
+      "citations": [
+        "prince-chapter-ii-chunk-0",
+        "prince-chapter-ii-chunk-0",
+        "prince-chapter-ii-chunk-0"
+      ],
+      "refused": false,
+      "generation_error": null,
+      "retrieved_contexts": [
+        {
+          "chunk_id": "prince-chapter-ii-chunk-0",
+          "vector_score": 0.5974998474121094,
+          "rerank_score": 0.9973621964454651,
+          "text": "CONCERNING HEREDITARY PRINCIPALITIES I will leave out all discussion on republics, inasmuch as in another place I have written of them at length, and will address myself only to principalities. In doing so I will keep to the order indicated above, and discuss how such principalities are to be ruled and preserved. I say at once there are fewer difficulties in holding hereditary states, and those long accustomed to the family of their prince, than new ones; for it is sufficient only not to transgress the customs of his ancestors, and to deal prudently with circumstances as they arise, for a prince of average powers to maintain himself in his state, unless he be deprived of it by some extraordinary and excessive force; and if he should be so deprived of it, whenever anything sinister happens"
+        },
+        {
+          "chunk_id": "prince-chapter-i-chunk-0",
+          "vector_score": 0.5321717262268066,
+          "rerank_score": 0.9517569541931152,
+          "text": "HOW MANY KINDS OF PRINCIPALITIES THERE ARE, AND BY WHAT MEANS THEY ARE ACQUIRED All states, all powers, that have held and hold rule over men have been and are either republics or principalities. Principalities are either hereditary, in which the family has been long established; or they are new. The new are either entirely new, as was Milan to Francesco Sforza, or they are, as it were, members annexed to the hereditary state of the prince who has acquired them, as was the kingdom of Naples to that of the King of Spain. Such dominions thus acquired are either accustomed to live under a prince, or to live in freedom; and are acquired either by the arms of the prince himself, or of others, or else by fortune or by ability."
+        },
+        {
+          "chunk_id": "prince-chapter-iii-chunk-0",
+          "vector_score": 0.4746834635734558,
+          "rerank_score": 0.3818676471710205,
+          "text": "CONCERNING MIXED PRINCIPALITIES But the difficulties occur in a new principality. And firstly, if it be not entirely new, but is, as it were, a member of a state which, taken collectively, may be called composite, the changes arise chiefly from an inherent difficulty which there is in all new principalities; for men change their rulers willingly, hoping to better themselves, and this hope induces them to take up arms against him who rules: wherein they are deceived, because they afterwards find by experience they have gone from bad to worse. This follows also on another natural and common necessity, which always causes a new prince to burden those who have submitted to him with his soldiery and with infinite other hardships which he must put upon his new acquisition. In this way you have"
+        },
+        {
+          "chunk_id": "prince-chapter-xi-chunk-0",
+          "vector_score": 0.45816880464553833,
+          "rerank_score": 0.013141490519046783,
+          "text": "CONCERNING ECCLESIASTICAL PRINCIPALITIES It only remains now to speak of ecclesiastical principalities, touching which all difficulties are prior to getting possession, because they are acquired either by capacity or good fortune, and they can be held without either; for they are sustained by the ancient ordinances of religion, which are so all-powerful, and of such a character that the principalities may be held no matter how their princes behave and live. These princes alone have states and do not defend them; and they have subjects and do not rule them; and the states, although unguarded, are not taken from them, and the subjects, although not ruled, do not care, and they have neither the desire nor the ability to alienate themselves. Such principalities only are secure and happy. But"
+        }
+      ],
+      "evaluation_status": "scored",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7126585369638824,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "case_id": "fear_and_hatred",
+      "question": "What does Machiavelli say a prince must do to avoid hatred from his subjects?",
+      "reference": "If a prince cannot be both loved and feared, Machiavelli considers it safer to be feared, but the prince must avoid being hated. He advises the prince not to take subjects' property or women and to avoid arbitrary confiscation.",
+      "response": "A prince must avoid being rapacious and refraining from violating the property and women of his subjects to avoid being hated. [prince-chapter-xvii-chunk-4] [prince-chapter-xix-chunk-0] When a prince must execute someone, he should do so only with proper justification and manifest cause. [prince-chapter-xvii-chunk-4] Because men are more sensitive to the loss of their wealth than the death of their relatives, the prince should prioritize avoiding the seizure of personal property. [prince-chapter-xvii-chunk-4] A wise prince should focus his efforts on establishing his rule based on factors within his own control, specifically centering on the avoidance of hatred. [prince-chapter-xvii-chunk-8]",
+      "citations": [
+        "prince-chapter-xvii-chunk-4",
+        "prince-chapter-xix-chunk-0",
+        "prince-chapter-xvii-chunk-4",
+        "prince-chapter-xvii-chunk-4",
+        "prince-chapter-xvii-chunk-8"
+      ],
+      "refused": false,
+      "generation_error": null,
+      "retrieved_contexts": [
+        {
+          "chunk_id": "prince-chapter-xvii-chunk-4",
+          "vector_score": 0.6090905070304871,
+          "rerank_score": 0.9903694987297058,
+          "text": "but fear preserves you by a dread of punishment which never fails. Nevertheless a prince ought to inspire fear in such a way that, if he does not win love, he avoids hatred; because he can endure very well being feared whilst he is not hated, which will always be as long as he abstains from the property of his citizens and subjects and from their women. But when it is necessary for him to proceed against the life of someone, he must do it on proper justification and for manifest cause, but above all things he must keep his hands off the property of others, because men more quickly forget the death of their father than the loss of their patrimony. Besides, pretexts for taking away the property are never wanting; for he who has once begun to live by robbery will always find pretexts for"
+        },
+        {
+          "chunk_id": "prince-chapter-xix-chunk-0",
+          "vector_score": 0.7554501891136169,
+          "rerank_score": 0.9633303284645081,
+          "text": "THAT ONE SHOULD AVOID BEING DESPISED AND HATED Now, concerning the characteristics of which mention is made above, I have spoken of the more important ones, the others I wish to discuss briefly under this generality, that the prince must consider, as has been in part said before, how to avoid those things which will make him hated or contemptible; and as often as he shall have succeeded he will have fulfilled his part, and he need not fear any danger in other reproaches. It makes him hated above all things, as I have said, to be rapacious, and to be a violator of the property and women of his subjects, from both of which he must abstain. And when neither their property nor their honor is touched, the majority of men live content, and he has only to contend with the ambition of a few, whom"
+        },
+        {
+          "chunk_id": "prince-chapter-xvii-chunk-8",
+          "vector_score": 0.6386046409606934,
+          "rerank_score": 0.9588568210601807,
+          "text": "of Scipio; but, he being under the control of the Senate, this injurious characteristic not only concealed itself, but contributed to his glory. Returning to the question of being feared or loved, I come to the conclusion that, men loving according to their own will and fearing according to that of the prince, a wise prince should establish himself on that which is in his own control and not in that of others; he must endeavour only to avoid hatred, as is noted."
+        },
+        {
+          "chunk_id": "prince-chapter-x-chunk-4",
+          "vector_score": 0.6511224508285522,
+          "rerank_score": 0.13509370386600494,
+          "text": "will make them forget their prince; to this I answer that a powerful and courageous prince will overcome all such difficulties by giving at one time hope to his subjects that the evil will not be for long, at another time fear of the cruelty of the enemy, then preserving himself adroitly from those subjects who seem to him to be too bold. Further, the enemy would naturally on his arrival at once burn and ruin the country at the time when the spirits of the people are still hot and ready for the defence; and, therefore, so much the less ought the prince to hesitate; because after a time, when spirits have cooled, the damage is already done, the ills are incurred, and there is no longer any remedy; and therefore they are so much the more ready to unite with their prince, he appearing to be"
+        }
+      ],
+      "evaluation_status": "scored",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9203464249371119,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "case_id": "fortune_as_river",
+      "question": "How does Machiavelli compare fortune to a violent river?",
+      "reference": "Machiavelli compares fortune to a destructive river that floods and sweeps away what is not protected. People can prepare barriers during calm times to limit the damage. He says fortune governs about half of human actions while leaving the other half, or somewhat less, to human direction.",
+      "response": "Machiavelli compares fortune to a raging river that, when in flood, destroys everything in its path with uncontrollable violence. [prince-chapter-xxv-chunk-1] Just as men can build barriers and canals during calm weather to mitigate the destructive power of a flooding river, they can prepare for fortune's impact by building defenses during times of stability. [prince-chapter-xxv-chunk-1] [prince-chapter-xxv-chunk-2] Fortune directs her power specifically toward areas that lack the proper defenses or valour to resist her influence. [prince-chapter-xxv-chunk-2]",
+      "citations": [
+        "prince-chapter-xxv-chunk-1",
+        "prince-chapter-xxv-chunk-1",
+        "prince-chapter-xxv-chunk-2",
+        "prince-chapter-xxv-chunk-2"
+      ],
+      "refused": false,
+      "generation_error": null,
+      "retrieved_contexts": [
+        {
+          "chunk_id": "prince-chapter-xxv-chunk-1",
+          "vector_score": 0.5562949180603027,
+          "rerank_score": 0.9568797945976257,
+          "text": "Nevertheless, not to extinguish our free will, I hold it to be true that Fortune is the arbiter of one-half of our actions, but that she still leaves us to direct the other half, or perhaps a little less. I compare her to one of those raging rivers, which when in flood overflows the plains, sweeping away trees and buildings, bearing away the soil from place to place; everything flies before it, all yield to its violence, without being able in any way to withstand it; and yet, though its nature be such, it does not follow therefore that men, when the weather becomes fair, shall not make provision, both with defences and barriers, in such a manner that, rising again, the waters may pass away by canal, and their force be neither so unrestrained nor so dangerous. So it happens with fortune,"
+        },
+        {
+          "chunk_id": "prince-chapter-xxv-chunk-2",
+          "vector_score": 0.4899974465370178,
+          "rerank_score": 0.00035983146517537534,
+          "text": "waters may pass away by canal, and their force be neither so unrestrained nor so dangerous. So it happens with fortune, who shows her power where valour has not prepared to resist her, and thither she turns her forces where she knows that barriers and defences have not been raised to constrain her. And if you will consider Italy, which is the seat of these changes, and which has given to them their impulse, you will see it to be an open country without barriers and without any defence. For if it had been defended by proper valour, as are Germany, Spain, and France, either this invasion would not have made the great changes it has made or it would not have come at all. And this I consider enough to say concerning resistance to fortune in general. But confining myself more to the particular,"
+        },
+        {
+          "chunk_id": "prince-chapter-vii-chunk-2",
+          "vector_score": 0.38744157552719116,
+          "rerank_score": 9.825781307881698e-05,
+          "text": "a way that the first storm will not overthrow them; unless, as is said, those who unexpectedly become princes are men of so much ability that they know they have to be prepared at once to hold that which fortune has thrown into their laps, and that those foundations, which others have laid _before_ they became princes, they must lay _afterwards_. Concerning these two methods of rising to be a prince by ability or fortune, I wish to adduce two examples within our own recollection, and these are Francesco Sforza and Cesare Borgia. Francesco, by proper means and with great ability, from being a private person rose to be Duke of Milan, and that which he had acquired with a thousand anxieties he kept with little trouble. On the other hand, Cesare Borgia, called by the people Duke Valentino,"
+        },
+        {
+          "chunk_id": "prince-chapter-ix-chunk-0",
+          "vector_score": 0.3588225245475769,
+          "rerank_score": 5.8899149735225365e-05,
+          "text": "CONCERNING A CIVIL PRINCIPALITY But coming to the other point—where a leading citizen becomes the prince of his country, not by wickedness or any intolerable violence, but by the favour of his fellow citizens—this may be called a civil principality: nor is genius or fortune altogether necessary to attain to it, but rather a happy shrewdness. I say then that such a principality is obtained either by the favour of the people or by the favour of the nobles. Because in all cities these two distinct parties are found, and from this it arises that the people do not wish to be ruled nor oppressed by the nobles, and the nobles wish to rule and oppress the people; and from these two opposite desires there arises in cities one of three results, either a principality, self-government, or anarchy. A"
+        }
+      ],
+      "evaluation_status": "scored",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.754230368476731,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    }
+  ],
+  "note": "RAGAS LLM-judge scores are estimates; inspect per-case evidence and references before drawing conclusions."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "case_id": "mercenary_arms",
+    "question": "Why does Machiavelli call mercenary arms useless and dangerous?",
+    "reference": "Machiavelli calls mercenary troops dangerous because they are disunited, ambitious, undisciplined, and unfaithful. They have little reason to risk themselves for a ruler, so a prince who relies on them cannot count on dependable protection."
+  },
+  {
+    "case_id": "hereditary_principalities",
+    "question": "What does Chapter II say about hereditary principalities and change?",
+    "reference": "Hereditary principalities are easier to hold than new ones because people are accustomed to the ruling family. A hereditary prince can usually preserve the state by following ancestral customs and adapting prudently to circumstances; the established rule gives people fewer reasons to seek change."
+  },
+  {
+    "case_id": "fear_and_hatred",
+    "question": "What does Machiavelli say a prince must do to avoid hatred from his subjects?",
+    "reference": "If a prince cannot be both loved and feared, Machiavelli considers it safer to be feared, but the prince must avoid being hated. He advises the prince not to take subjects' property or women and to avoid arbitrary confiscation."
+  },
+  {
+    "case_id": "fortune_as_river",
+    "question": "How does Machiavelli compare fortune to a violent river?",
+    "reference": "Machiavelli compares fortune to a destructive river that floods and sweeps away what is not protected. People can prepare barriers during calm times to limit the damage. He says fortune governs about half of human actions while leaving the other half, or somewhat less, to human direction."
+  }
+]

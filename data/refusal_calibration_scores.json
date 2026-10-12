@@ -1,0 +1,75 @@
+{
+  "embedder_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker_model": "ms-marco-TinyBERT-L-2-v2",
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "candidate_n": 20,
+  "score_used": "top FlashRank reranker score after FAISS candidate retrieval",
+  "selection_policy": "maximize balanced accuracy; ties favor the higher threshold and therefore refusal",
+  "threshold": 0.48179012,
+  "true_positive": 4,
+  "true_negative": 4,
+  "false_positive": 0,
+  "false_negative": 0,
+  "balanced_accuracy": 1.0,
+  "calibration_set_size": 8,
+  "caveat": "This small calibration set is for threshold selection, not an independent quality estimate; review the question set and add held-out examples before treating the observed scores as general performance.",
+  "examples": [
+    {
+      "question_id": "supported_mercenaries",
+      "supported": true,
+      "score": 0.99769092,
+      "top_chunk_id": "prince-chapter-xiii-chunk-3",
+      "top_chapter": "XIII"
+    },
+    {
+      "question_id": "supported_hereditary_states",
+      "supported": true,
+      "score": 0.9973622,
+      "top_chunk_id": "prince-chapter-ii-chunk-0",
+      "top_chapter": "II"
+    },
+    {
+      "question_id": "supported_fear_and_hatred",
+      "supported": true,
+      "score": 0.9903695,
+      "top_chunk_id": "prince-chapter-xvii-chunk-4",
+      "top_chapter": "XVII"
+    },
+    {
+      "question_id": "supported_fortune_river",
+      "supported": true,
+      "score": 0.95687979,
+      "top_chunk_id": "prince-chapter-xxv-chunk-1",
+      "top_chapter": "XXV"
+    },
+    {
+      "question_id": "unsupported_castruccio_biography",
+      "supported": false,
+      "score": 0.0004299,
+      "top_chunk_id": "prince-chapter-vi-chunk-9",
+      "top_chapter": "VI"
+    },
+    {
+      "question_id": "unsupported_valentino_appendix",
+      "supported": false,
+      "score": 0.00670044,
+      "top_chunk_id": "prince-chapter-vii-chunk-3",
+      "top_chapter": "VII"
+    },
+    {
+      "question_id": "unsupported_translator_introduction",
+      "supported": false,
+      "score": 0.00002541,
+      "top_chunk_id": "prince-chapter-vii-chunk-2",
+      "top_chapter": "VII"
+    },
+    {
+      "question_id": "unsupported_historical_dates",
+      "supported": false,
+      "score": 0.0000519,
+      "top_chunk_id": "prince-chapter-viii-chunk-9",
+      "top_chapter": "VIII"
+    }
+  ]
+}
