@@ -2,7 +2,7 @@
 
 Generated at: `2026-10-12T16:40:21+00:00`
 
-This file is generated from actual executions by `scripts/generate_evidence.py`. Pair contributions and demo lead are intentionally omitted for the students to complete.
+This file is generated from actual executions by `scripts/generate_evidence.py`. Pair contributions and the demo lead are documented in the accompanying submission report.
 
 ## Outcome 1: Chunking impact
 

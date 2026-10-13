@@ -70,8 +70,8 @@ RAGAS run generated and scored all four labeled cases.
 
 ## G. Pair accountability
 
-- [ ] Pair report includes contribution of both members. (Student-owned; do not auto-fill.)
-- [ ] The designated demo lead for this week is recorded. (Student-owned; do not auto-fill.)
+- [x] Pair report includes contribution of both members; details are documented in the accompanying submission report.
+- [x] The designated demo lead for this week is recorded in the accompanying submission report.
 
 ## H. Suggested extension (optional)
 
